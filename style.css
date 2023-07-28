@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar {
+    height: 50px;
+    width: normal;
+    background-color: #CC313D;
+}
+
+#logo {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#name {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 200px;
+    
+}
