@@ -1,23 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-#navbar {
-    height: 50px;
+nav {
+    font-size: 35px;
+    height: 45px;
     width: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #CC313D;
 }
 
-#logo {
-    font-size: 35px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.con {
+    color: rgb(0, 0, 88);
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
-#name {
+form {
+    font-size: 23px;
     text-align: center;
-    font-size: 2rem;
     margin-top: 200px;
-    
+}
+#submit{
+    border: 0.3px solid rgb(45, 14, 14);
+    border-radius: 3px;
+    font-size: large;
+    text-align: center;
+    color: rgba(23, 12, 0, 0.945);
+    width: 103px;
+     height: 40px;
+}
+#submit:hover{
+    background-color: rgba(76, 233, 228, 0.564);
+
+}
+
+input {
+    background-color: rgba(150, 250, 217, 0.233);
+    margin: 8px;
+    width: 203px;
+    height: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background-color:#02fffbb5 ;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type=text]:focus {
+    border-color:#f61c1c;
+
+}
+select{
+    background-color: rgba(150, 250, 217, 0.233);
+    margin: 8px;
+    border-radius: 1% solid black;
+    width: 203px;
+    height: 32px;
+}
+
+.s{
+    font-size: 20px;
 }
